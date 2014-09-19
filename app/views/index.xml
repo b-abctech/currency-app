@@ -13,9 +13,9 @@
                 <Label id="lbl_target" accessibilityLabel="lbl_target" text="To"/>
                 <TextField id="txt_target_currency" accessibilityLabel="txt_target_currency"  value="THB"/>
             </View>
-            <View layout="top" id="x" height="75" backgroundColor="red">
-                <Label text="supported currency:" top="20" class="lbl_guide"/>
-                <Label text="USD, THB, SGD, JPY, EUR" class="lbl_guide"/>
+            <View width="80%" layout="vertical" id="x" height="75" backgroundColor="#eae0da">
+                <Label top="15" text="supported currency:" class="lbl_guide"/>
+                <Label  text="USD, THB, SGD, JPY, EUR" class="lbl_guide"/>
             </View>
         </View>
         <View id="resultBox">
