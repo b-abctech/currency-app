@@ -1,0 +1,19 @@
+<Alloy>
+	<Window class="container">
+		<View class="view_currency" accessibilityLabel="view_currency">
+			<Label text="Currency Converter" class="lbl_title"/>
+            <View class="view_source" accessibilityLabel="view_source">
+                <TextField id="txt_source_money" accessibilityLabel="txt_source_money" value="1"/>
+                <TextField id="txt_source_currency" accessibilityLabel="txt_source_currency"  value="USD"/>
+            </View>
+            <View class="view_target" accessibilityLabel="view_target">
+                <Label id="lbl_target" accessibilityLabel="lbl_target" text="To"/>
+                <TextField id="txt_target_currency" accessibilityLabel="txt_target_currency"  value="THB"/>
+            </View>
+            <Label text="supported currency:" class="lbl_guide"/>
+			<Label text="USD, THB, SGD, JPY, EUR" class="lbl_guide"/>
+            <Button id="btn_convert" accessibilityLabel="btn_convert">Convert</Button>
+            <Label id="lbl_result" accessibilityLabel="lbl_result" text=" "/>
+        </View>
+	</Window>
+</Alloy>

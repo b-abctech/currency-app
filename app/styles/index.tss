@@ -1,0 +1,85 @@
+".container": {
+	backgroundColor:"white"
+},
+
+".lbl_title": {
+	left: 20,
+	font: {
+		fontSize: 28,
+		fontFamily: 'OpenSans-Bold' 
+	}
+}
+
+".view_currency": {
+    layout:'vertical',
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    top:40
+}
+".view_source":{
+	layout:'horizontal',
+	width: Ti.UI.FILL,
+	height: 75,
+	top:40
+}
+	"#txt_source_money": { width: '30%', left: '20%' }
+	"#txt_source_currency": {  width: '50%' }
+	
+".view_target": {
+	layout:'horizontal',
+	width: Ti.UI.FILL,
+	height: 75
+}
+	"#lbl_target": {  width: '30%' , left: '20%' }
+	"#txt_target_currency": {  width: '50%' }
+
+".lbl_guide": {
+	left:20,
+	color:'grey',
+	font: { 
+		fontSize: 14,
+		fontFamily: 'OpenSans-Italic' 
+	}
+}
+
+"#btn_convert":{
+	top: 50
+}
+
+"#lbl_result":{
+	top: 50,
+	font: {
+		fontSize: 36,
+		fontFamily: 'OpenSans-Bold' 
+	}
+}
+
+
+"TextField": {
+	color:'black',
+	font: {
+		fontSize: 24
+	}
+}
+
+"Label": {
+	color:'black',
+	font: {
+		fontSize: 24
+	}
+}
+
+"Label[platform=ios]":{
+	font: { fontFamily: 'OpenSans' }
+}
+"Label[platform=android]":{
+	font: { fontFamily: 'OpenSans-Regular' }
+}
+"TextField[platform=ios]":{
+	font: { fontFamily: 'OpenSans' }
+}
+"TextField[platform=android]":{
+	font: { fontFamily: 'OpenSans-Regular' }
+}
+
+
