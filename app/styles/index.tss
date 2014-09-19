@@ -23,7 +23,7 @@
 	top: 80
 }
 	"#txt_source_money": { width: '25%', right: '5%' ,left: '20%' , borderColor:'black' , borderRadius: 6 , textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER }
-	"#txt_source_currency": {  width: '50%' }
+	"#txt_source_currency": {  width: '30%' , borderColor:'black' , borderRadius: 6 , textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER }
 	
 ".view_target": {
 	layout:'horizontal',
@@ -31,7 +31,7 @@
 	height: 75
 }
 	"#lbl_target": {  width: '30%' , left: '20%' }
-	"#txt_target_currency": {  width: '50%' }
+	"#txt_target_currency": {  width: '30%', borderColor:'black' , borderRadius: 6 , textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER }
 
 ".lbl_guide": {
 	left:20,
