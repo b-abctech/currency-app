@@ -20,7 +20,7 @@
 	layout:'horizontal',
 	width: Ti.UI.FILL,
 	height: 75,
-	top: 80
+	top: 90
 }
 	"#txt_source_money": { width: '25%', right: '5%' ,left: '20%' , borderColor:'black' , borderRadius: 6 , textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER }
 	"#txt_source_currency": {  width: '30%' , borderColor:'black' , borderRadius: 6 , textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER }
